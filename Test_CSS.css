@@ -11,6 +11,8 @@
   justify-content: space-around;
   flex-wrap: wrap;
   padding: 5px;
+  font-family: 'Roboto Condensed', sans-serif;
+  
   }
 
 .headerLink {
@@ -36,10 +38,12 @@
 
 div.introText {
   padding: 10px;
+  font-family: 'Roboto Condensed', sans-serif;
   }
 
 main.intro, main.achievements, main.experience, main.training {
   padding: 0 10px 0 20px;
+  font-family: 'Roboto Condensed', sans-serif;
   }
 
 main.intro {
@@ -65,13 +69,14 @@ main.intro {
   align-items: center;
   justify-content: space-around;
   width: 20vw;
-  height: 220vh;
+  height: 100%;
   padding: 0;
   flex-flow: column-wrap;
   }
 
 div blockquote {
-  background: #444444;
+  background-image: url("https://images.unsplash.com/photo-1530508777238-14544088c3ed?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Z2FsYXh5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60");
+  background-position: 50% 50%;
   color: white;
   font-size: 28px;
   line-height: 32px;
@@ -80,6 +85,8 @@ div blockquote {
   font-family: "Abril Fatface";
   width: 15vw;
   position: relative;
+  margin-top: 70px;
+  font-family: 'Roboto Condensed', sans-serif;
   }
 
 blockquote::before {
@@ -95,4 +102,8 @@ blockquote::before {
 
 main.container {
   padding: 50px 5vw 5vh 4.45vw;
+  }
+
+h1 {
+  font-family: 'Anton', sans-serif;
   }
