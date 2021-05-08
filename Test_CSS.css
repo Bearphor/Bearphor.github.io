@@ -28,7 +28,7 @@
 
 #content {
   display: inline-flex;
-  width: 90.7vw;
+  width: 90vw;
   }
 
 #contentLeft {
@@ -100,9 +100,19 @@ blockquote::before {
   }
 
 main.container {
-  padding: 50px 5vw 5vh 5w;
   box-sizing:  border-box;
+  padding: 50px 5vw 5vh 5vw;
   }
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
 
 h1 {
   font-family: 'Anton', sans-serif;
