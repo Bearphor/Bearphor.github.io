@@ -2,7 +2,6 @@
   position: fixed;
   background-color: grey;
   top: 0;
-  left: 5vw;
   width: 90vw;
   height: auto;
   z-index: 1;
@@ -12,7 +11,7 @@
   flex-wrap: wrap;
   padding: 5px;
   font-family: 'Roboto Condensed', sans-serif;
-  
+  box-sizing: border-box;
   }
 
 .headerLink {
@@ -101,7 +100,8 @@ blockquote::before {
   }
 
 main.container {
-  padding: 50px 5vw 5vh 4.45vw;
+  padding: 50px 5vw 5vh 5w;
+  box-sizing:  border-box;
   }
 
 h1 {
